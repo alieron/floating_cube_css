@@ -43,7 +43,11 @@ body {
     transform: translate(-50%, -50%) rotateX(90deg);
     top: 1em;
     background-image: radial-gradient(#00a0, #000),
-      repeating-conic-gradient(from 45deg, #111 0deg 90deg, #222 90deg 180deg);
+      repeating-conic-gradient(
+        from 45deg,
+        #111 0deg 90deg,
+        #636363 90deg 180deg
+      );
     background-size: 100%, 1em 1em;
 
     // align-items: center;
@@ -54,7 +58,7 @@ body {
       height: 100%;
 
       animation: float-shadow 2s infinite ease-in-out;
-      background-image: radial-gradient(#000a, #0000 25%);
+      background-image: radial-gradient(#000a, #000a 25%);
 
       @keyframes float-shadow {
         0%,
